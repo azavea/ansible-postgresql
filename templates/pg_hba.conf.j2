@@ -72,8 +72,9 @@
 # listen on a non-local interface via the listen_addresses
 # configuration parameter, or via the -i or -h command line switches.
 
-
-
+{% for rule in postgresql_hba_mapping %}
+{{ rule.type }} {{ rule.database }} {{ rule.user }} {{ rule.address }} {{ rule.method }}
+{% endfor %}
 
 # DO NOT DISABLE!
 # If you change this first entry you will need to make sure that the
