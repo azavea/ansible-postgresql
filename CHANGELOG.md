@@ -1,3 +1,8 @@
+## 0.3.0
+
+- Add support for PostgreSQL 9.4.
+- Update default package version for PostgreSQL to `9.4.*-1.pgdg14.04+1`.
+
 ## 0.2.1
 
 - Update default package version for PostgreSQL to `9.3.5-2.pgdg14.04+1`.
