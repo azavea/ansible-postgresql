@@ -1,3 +1,7 @@
+## 0.3.1
+
+- Add variable for setting `log_autovacuum_min_duration`.
+
 ## 0.3.0
 
 - Add support for PostgreSQL 9.4.
