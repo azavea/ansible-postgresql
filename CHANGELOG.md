@@ -1,3 +1,7 @@
+## 0.3.2
+
+- Add variables for `work_mem` and `shared_buffers`.
+
 ## 0.3.1
 
 - Add variable for setting `log_autovacuum_min_duration`.
