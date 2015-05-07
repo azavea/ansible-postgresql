@@ -1,3 +1,7 @@
+## 0.3.3
+
+- Add variables for `max_connections`.
+
 ## 0.3.2
 
 - Add variables for `work_mem` and `shared_buffers`.
