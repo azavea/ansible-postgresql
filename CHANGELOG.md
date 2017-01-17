@@ -1,3 +1,8 @@
+## 0.5.0
+- Add Support for PostgreSQL 9.6
+- Update changes between the PostgreSQL 9.5 and 9.6 configuration files
+- Update default package version for PostgreSQL to `9.6.*-2.pgdg14.04+1`.
+
 ## 0.4.0
 
 - Update default package version for PostgreSQL to `9.5.*-1.pgdg14.04+1`.
