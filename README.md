@@ -6,7 +6,7 @@ An Ansible role for installing PostgreSQL.
 
 - `postgresql_version` - PostgreSQL version (default: `9.6`)
 - `postgresql_repository_channel` - PostgreSQL repository channel (default: `"main"`)
-- `postgresql_package_version` - PostgreSQL package version (default: `"9.6.*-2.pgdg14.04+1"`
+- `postgresql_package_version` - PostgreSQL package version (default: `"9.6.*"`
 - `postgresql_listen_addresses` - Address for PostgreSQL to bind to (default: `localhost`)
 - `postgresql_port` - Port for PostgreSQL to bind to (default: `5432`)
 - `postgresql_data_directory` - Default data directory (default: `/var/lib/postgresql/{{ postgresql_version }}/main`)
