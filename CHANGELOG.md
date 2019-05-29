@@ -1,3 +1,6 @@
+## 1.0.0
+- Use default value of `default_text_search_config`.
+
 ## 0.5.0
 - Add Support for PostgreSQL 9.6
 - Update changes between the PostgreSQL 9.5 and 9.6 configuration files
