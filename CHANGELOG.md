@@ -1,3 +1,6 @@
+## 2.0.0
+- Update syntax for ansible 2.9.
+
 ## 1.0.0
 - Use default value of `default_text_search_config`.
 
