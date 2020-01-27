@@ -4,11 +4,13 @@ galaxy_info:
   description: An Ansible role for installing PostgreSQL.
   company: Azavea Inc.
   license: Apache
-  min_ansible_version: 1.8
+  min_ansible_version: 2.5
   platforms:
   - name: Ubuntu
     versions:
     - trusty
+    - xenial
+    - bionic
   categories:
   - database:sql
 dependencies: []

@@ -85,7 +85,7 @@
 # Database administrative login by Unix domain socket
 local   all             postgres                                peer
 
-{% if postgresql_version | version_compare('9.3', '<=') %}
+{% if postgresql_version is version('9.3', '<=') %}
 # Database administrative login from localhost
 host    all             postgres        127.0.0.1/32            trust
 {% endif %}
