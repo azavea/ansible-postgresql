@@ -7,8 +7,9 @@
                   state=present
 
 - name: Install PostgreSQL
-  apt: pkg={{ item }} state=present
-  with_items:
+  apt:
+    state: present
+    pkg:
     - postgresql-{{ postgresql_version }}={{ postgresql_package_version }}
     - postgresql-server-dev-{{ postgresql_version }}={{ postgresql_package_version }}
 
