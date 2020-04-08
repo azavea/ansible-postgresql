@@ -3,8 +3,9 @@
   apt_key: url=https://www.postgresql.org/media/keys/ACCC4CF8.asc state=present
 
 - name: Configure the PostgreSQL APT repositories
-  apt_repository: repo="deb http://apt.postgresql.org/pub/repos/apt/ {{ ansible_distribution_release}}-pgdg main"
-                  state=present
+  apt_repository: 
+    repo: "deb http://apt.postgresql.org/pub/repos/apt/ {{ 'xenial' if ansible_distribution_release == 'yakkety' else ansible_distribution_release }}-pgdg main"
+    state: present
 
 - name: Install PostgreSQL
   apt:
